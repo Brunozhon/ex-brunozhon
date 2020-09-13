@@ -64,7 +64,77 @@ HTML:
     <h1>This is a heading</h1>
     <p>This is a paragraph</p>
     <p><a href="https://brunozhon.github.io">Hello links!</a></p>
-    <img src="https://brunozhon.github.io" alt="Hello images!">
+    <img src="https://brunozhon.github.io/image.jpg" alt="Hello images!">
   </body>
 </html>
+```
+
+### Markdown will highlight things depending on the languge defined after the three ticks (\`\`\`)
+
+HTML \`\`\`html:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /*Some styles*/
+    </style>
+  </head>
+  <body>
+    <h2>My webpage</h2>
+    <p>This webpage is styled with the hacker theme</p>
+    <script src="script.js"></script>
+    <script>
+      //Some code
+    </script>
+  </body>
+</html>
+```
+
+CSS \`\`\`css:
+
+```css
+h1,h2,h3,h4,h5,h6 {
+  color: #00ff00;
+}
+body {
+  magrin: 0px;
+  padding: 0px;
+}
+.bruno {
+  padding: 16px; 
+}
+.bruno.bruno-no-padding {
+  padding: 0px;
+}
+.bruno.bruno-no-magrin {
+  magrin: 0px;
+}
+.bruno.bruno-clear-magr-padd {
+  padding: 0px;
+  magrin: 0px;
+}
+/*Other styles*/
+```
+
+JSON \`\`\`json:
+
+```json
+{
+  "name":"John Doe",
+  "age":26,
+  "coding_area":"GitHub"
+}
+```
+
+CoffeeScript (:coffee:Script) \`\`\`coffeescript
+
+```coffeescript
+count = (c) ->
+  return c + 1
+
+console.log count 1
 ```
