@@ -1,8 +1,22 @@
-## Welcome to GitHub Pages
+## Welcome to my repostory
 
-You can use the [editor on GitHub](https://github.com/Brunozhon/ex-brunozhon/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This file is edited at `index.md`. You can copy the link to go to the repo:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+```
+https://github.com/Brunozhon/ex-brunozhon/
+```
+
+Or use this link to go to my website:
+
+```
+https://brunozhon.github.io/ex-brunozhon/
+```
+
+### Want to meet me?
+
+![Me!](https://brunozhon.github.io/image.jpg)
+
+Just visit [my webpage](https://brunozhon.github.io)
 
 ### Markdown
 
@@ -25,13 +39,32 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+### Why markdown?
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Markdown provides easy syntax for headings, paragraphs, and much more!
 
-### Jekyll Themes
+Markdown:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Brunozhon/ex-brunozhon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```markdown
+# This is a heading
 
-### Support or Contact
+This is a paragraph
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Hello links!](https://brunozhon.github.io)
+
+![Hello images!](https://brunozhon.github.io/image.jpg)
+```
+
+HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph</p>
+    <p><a href="https://brunozhon.github.io">Hello links!</a></p>
+    <img src="https://brunozhon.github.io" alt="Hello images!">
+  </body>
+</html>
+```
